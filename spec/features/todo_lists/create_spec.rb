@@ -1,16 +1,16 @@
 require 'spec_helper'
-def create_todo_list(options={})
-	options[:title] ||= "My todo list"
-	options[:description] ||="This is my todo list"
-	visit "/todo_lists"	
-	click_link "New Todo list"
-	expect(page).to have_content("New todo_list")
-	fill_in "Title", with: options[:title]
+	def create_todo_list(options={})
+		options[:title] ||= "My todo list"
+		options[:description] ||="This is my todo list"
+		visit "/todo_lists"	
+		click_link "New Todo list"
+		expect(page).to have_content("New todo_list")
+		fill_in "Title", with: options[:title]
 
-	fill_in "Description", with: options[:description]
-	click_button "Create Todo list"
-	visit "/todo_lists"	
-end
+		fill_in "Description", with: options[:description]
+		click_button "Create Todo list"
+		visit "/todo_lists"	
+	end
 
 
 describe "Creating todo lists" do
