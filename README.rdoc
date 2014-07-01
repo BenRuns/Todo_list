@@ -9,6 +9,9 @@ Things you may want to cover:
 
 * System dependencies
 
+Created using a tutorial on teamtreehouse.com
+
+
 * Configuration
 
 * Database creation
