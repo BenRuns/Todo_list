@@ -53,5 +53,6 @@ group :test do
   gem 'shoulda-matchers','~> 2.4.0'
 end
 
+ruby "2.0.0"
 
 
