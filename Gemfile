@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
+ gem 'pg'
 
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -39,7 +40,7 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
-  gem 'pg'
+ 
 end
 
 group :test do
@@ -47,7 +48,5 @@ group :test do
   gem 'shoulda-matchers','~> 2.4.0'
 end
 
-group :production do
-  gem 'pg'
-end
+
 
