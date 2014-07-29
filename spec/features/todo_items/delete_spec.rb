@@ -3,6 +3,8 @@ require 'spec_helper'
 describe "Deleting todo items " do
 	let!(:todo_list) {TodoList.create(title: "Grocery  list", description: "Groceries")}
 	let!(:todo_item) {todo_list.todo_items.create(content:"Milk")}
+	let!(:user) {create(:user)}
+	before { sign_in user, password: 'fake12345' }
 
 
 

@@ -3,7 +3,10 @@ require 'spec_helper'
 
 describe "Editing todo list " do
 	let!(:todo_list){TodoList.create(title: "Groceries", description: "Grocery list.")}
-
+	let!(:user) {create(:user)}
+	before do 
+		sign_in user, password: 'fake12345'
+	end
 
 
 	it "is successful when clicking the destroy link" do
