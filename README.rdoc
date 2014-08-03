@@ -1,5 +1,5 @@
 This was a tutorial that I worked through on Teamtreehouse.com
-The code was not created by me but I typed it out meticulously at each stage of the tutorial. I'd say the main benefit of this tutorial was the focus on testing. I learned more about how to use rspec that I had in previous rails.
+The code was not created by me but I typed it out meticulously at each stage of the tutorial. I'd say the main benefit of this tutorial was the focus on testing. I learned more about how to use rspec that I had in previous rails courses.
 
 I have this version running at
 http://ben-todo-list.herokuapp.com/
