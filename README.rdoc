@@ -6,11 +6,11 @@ http://ben-todo-list.herokuapp.com/
 
 requires postrgres and rails 4 to run locally
 
-clone the repo
-cd to appropriate directory
-bundle install
-rake db:create
-rake db:migrate
-rails s
+    clone the repo
+    cd to appropriate directory
+    bundle install
+    rake db:create
+    rake db:migrate
+    rails s
 should be running on localhost:3000
 
